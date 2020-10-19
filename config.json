@@ -1,0 +1,52 @@
+{
+    "FAUXMO": {
+        "ip_address": "auto"
+    },
+    "PLUGINS": {
+        "GpioPlugin": {
+        "path": "/fauxmo/plugins/gpioplugin.py",
+            "DEVICES": [
+                {
+                    "port":12342,
+                    "pin": 2,
+                    "name": "light one"
+                },
+                {
+                    "port":12343,
+                    "pin": 3,
+                    "name": "light two"
+                },
+                {
+                    "port":12344,
+                    "pin": 4,
+                    "name": "switch tree"
+                },
+                {
+                    "port":12345,
+                    "pin": 17,
+                    "name": "switch four"
+                },
+                {
+                    "port":12346,
+                    "pin": 27,
+                    "name": "switch five"
+                },
+                {
+                    "port":12347,
+                    "pin": 22,
+                    "name": "switch six"
+                },
+                {
+                    "port":12348,
+                    "pin": 10,
+                    "name": "switch seven"
+                },
+                {
+                    "port":12349,
+                    "pin": 9,
+                    "name": "switch eight"
+                }
+            ]
+        }
+    }
+}
